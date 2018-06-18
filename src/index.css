@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.addRate {
+  background-image: url('/public/images/likes.jpg');
+  background-size: 240px 467px;
+  background-repeat: no-repeat;
+}
+
+.reduceRate {
+  background-image: url('/public/images/dislike.png');
+  background-size: 250px 467px;
+  background-repeat: no-repeat;
+}
+
+.root {
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+li {
+  border: 1px solid rgb(174, 171, 171);
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0.5px 0.5px 10px grey;
+  list-style-type: none;
+  border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+}
+
+li img {
+  width: 230px;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 150px;
+}
+
+li img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 2px 4px 0 rgba(167, 156, 142, 0.52);
+  transition: transform 0.5s;
+}
+
+h1 {
+  text-align: center;
+}
+
+.addButton {
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 4.5px;
+  background-color: white;
+  border: 0.5px solid grey;
+}
+
+.reduceButton {
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 4.5px;
+  background-color: white;
+  border: 0.5px solid grey;
+}
+
+.fas {
+  margin: 5px;
+}
+
+.fa-star {
+  color: rgb(228, 133, 61);
+}
+
+.temp {
+  border: 2px solid green;
+}
+
+.temp1 {
+  border: 2px solid red;
+}
+
+i {
+  color: orange;
+}
