@@ -1,8 +1,8 @@
-#Restaurant review app
+# Restaurant review app
 
-##This is a restaurant review app
+## This is a restaurant review app
 
-##Usage
+## Usage
 + To run this project
   + Download this folder
   + Extract all files
