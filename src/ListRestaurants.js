@@ -85,10 +85,10 @@ class ListRestaurants extends Component {
                 <ThumbDownicon />
               </Button>
               {restaurant.rating > 4 && (
-                <p>Great place with great food & amazing service.</p>
+                <p>Great place.</p>
               )}
               {restaurant.rating < 2 && (
-                <p>Great place with great food & amazing service.</p>
+                <p>Don't go there.</p>
               )}
               <span>
                 {restaurant.comments.map((s, index) => <p key={index}>{s}</p>)}
